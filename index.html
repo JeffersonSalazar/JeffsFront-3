@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plantilla Front</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Css -->
+
+    <!-- Sass -->
+    <link rel="stylesheet" href="sass/estilos.css">  
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Fuentes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Noto+Sans+KR:wght@400;500&display=swap">
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+        
+    <!-- Cabezera solo visible en Responsive Mode -->
+    <header class="d-lg-none" id="box-header">
+        <div class="content-header px-4">
+            <a href="#" class="navbar-brand">Web Site</a> 
+            <i class="fas fa-bars" id="boton-menu" title="MENU"></i>
+        </div>   
+    </header>
+
+    <!-- Contenedor padre para manejo de Flex Box  -->
+    <section id="box-father">
+    
+        <!-- Menu Lateral  -->
+        <nav id="box-nav">
+            <div class="py-4 text-center">
+                <img src="img/img3.jpg" class="img-fluid rounded-circle" alt="imagen" title="Mi Perfil">
+            </div>
+            <ul>
+                <div class="w-75 mx-auto text-center">
+                    <li><a href="#nosotros" class="nav-link">NOSOTROS</a></li>
+                    <li><a href="#mision" class="nav-link">MISION</a></li>
+                    <li><a href="#vision" class="nav-link">VISION</a></li>
+                    <li><a href="#objetivos" class="nav-link">OBJETIVOS</a></li>
+                    <li><a href="#productos" class="nav-link">PRODUCTOS</a></li>
+                    <li><a href="#contactos" class="nav-link">CONTACTOS</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- main -->
+        <main class="px-5">
+            
+            <!-- Seccion del Menu Nosotros -->
+            <section id="nosotros">
+                <h2>NOSOTROS</h2>
+                <h5 class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <strong>Asperiores tenetur.</strong></h5>
+                <p class="py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, corporis architecto. 
+                    Totam inventore deserunt officia iusto itaque, maxime, omnis ab architecto sunt, 
+                    nesciunt magnam voluptatem repellendus molestiae voluptatum error autem? Eos 
+                    excepturi earum a, molestias nemo quo laboriosam placeat ea dolores, 
+                    possimus perferendis eum, harum repudiandae eius cumque?
+                </p>
+                <div>
+                    <a href="#" title="Ir a Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Ir a Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Ir a Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="Ir a Github"><i class="fab fa-github"></i></a>
+                </div>
+            </section>
+
+            <hr class="w-75 mx-auto">
+
+            <!-- Seccion del Menu Mision -->
+            <section id="mision">
+                <h2>MISION</h2>
+                <p class="pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, corporis architecto. 
+                    Totam inventore deserunt officia iusto itaque, maxime, omnis ab architecto sunt, 
+                    nesciunt magnam voluptatem repellendus molestiae voluptatum error autem? Eos 
+                    excepturi earum a, molestias nemo quo laboriosam placeat ea dolores, 
+                    possimus perferendis eum, harum repudiandae eius cumque?
+                </p>
+            </section>
+
+            <hr class="w-75 mx-auto">
+
+            <!-- Seccion del Menu Vision -->
+            <section id="vision">
+                <h2>VISION</h2>
+                <p class="pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, corporis architecto. 
+                    Totam inventore deserunt officia iusto itaque, maxime, omnis ab architecto sunt, 
+                    nesciunt magnam voluptatem repellendus molestiae voluptatum error autem? Eos 
+                    excepturi earum a, molestias nemo quo laboriosam placeat ea dolores, 
+                    possimus perferendis eum, harum repudiandae eius cumque?
+                </p>
+            </section>
+
+            <hr class="w-75 mx-auto">  
+
+            <!-- Seccion del Menu Objetivos -->
+            <section id="objetivos">
+                <h2>OBJETIVOS</h2>
+                <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, corporis architecto. 
+                    Totam inventore deserunt officia iusto itaque, maxime, omnis ab architecto sunt, 
+                </p>
+                <ol class="px-3">
+                    <li class="">Lorem ipsum dolor sit amet.</li>
+                    <li class="nav-item">Lorem ipsum</li>
+                    <li class="nav-item">Lorem, ipsum dolor.</li>
+                    <li class="nav-item">Lorem ipsum dolor sit amet consectetur.</li>
+                </ol>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, corporis architecto. 
+                    Totam inventore deserunt officia iusto itaque, maxime.
+                    modi minus sunt? Iusto illum architecto sequi unde.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quam repudiandae voluptate est, impedit recusandae dolores
+                    ex rem placeat maiores, nam praesentium adipisci,
+                    modi minus sunt? Iusto illum architecto sequi unde.
+                </p>
+            </section>
+
+            <hr class="w-75 mx-auto">  
+
+            <!-- Seccion del Menu Productos -->
+            <section id="productos">
+                <h2>PRODUCTOS</h2>
+                <section class="content-img">
+                    <div data-aos="fade-up" data-aos-duration="900">
+                        <img src="img/img1.svg" alt="imagen">
+                        <p class="col-12 col-lg-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quam repudiandae voluptate est, impedit recusandae dolores
+                            ex rem placeat maiores, nam praesentium adipisci,
+                            modi minus sunt? Iusto illum architecto sequi unde.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quam repudiandae voluptate est, impedit recusandae dolores
+                            ex rem placeat maiores, nam praesentium adipisci,
+                            modi minus sunt? Iusto illum architecto sequi unde.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="my-5" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="col-12 ml-auto col-lg-8 order-2 order-xl-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quam repudiandae voluptate est, impedit recusandae dolores
+                            ex rem placeat maiores, nam praesentium adipisci,
+                            modi minus sunt? Iusto illum architecto sequi unde.
+                            Lorem ipsum dolor.
+                            <br>
+                            <br>
+                            ex rem placeat maiores, nam praesentium adipisci,
+                            modi minus sunt? Iusto illum architecto sequi unde.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quam repudiandae voluptate est, impedit recusandae.
+                        </p>
+                        <img src="img/img2.svg" class="order-1 order-xl-2" alt="imagen">
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1100">
+                        <img src="img/img4.svg" alt="imagen">
+                        <p class="col-12 col-lg-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Quam repudiandae voluptate est, impedit recusandae dolores
+                            ex rem placeat maiores, nam praesentium adipisci,
+                            modi minus sunt? Iusto illum architecto sequi unde.
+                            Quam repudiandae voluptate est, impedit recusandae dolores
+                        </p>
+                    </div>
+                </section>
+            </section>
+
+            <hr class="w-75 mx-auto">  
+           
+            <section id="contactos">
+                <h2>CONTACTANOS</h2>
+                <section class="content-contac">
+                    <div class="col-lg-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11660138.913264249!2d7.7133941172526335!3d64.89702807384153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x461268458f4de5bf%3A0xa1b03b9db864d02b!2sNoruega!5e0!3m2!1ses!2sco!4v1586442634594!5m2!1ses!2sco" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-lg-5 my-3">
+                        <h4 class="py-3 text-center">Registrate...!</h4>
+                        <form action="" class="w-75 mx-auto">
+                            <input type="text" name="nombre" placeholder="Ingrese su nombre" class="form-control" id="name">
+                            <input type="email" name="correo" placeholder="Ingrese su correo" class="form-control my-3" id="email">
+                            <div class="w-50 mx-auto text-center">
+                                <button type="button" class="btn px-4">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="content-footer py-lg-2">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 text-center">
+                        <h6 class="text-muted small">&copy; Jefferson Salazar Front-End</h6>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-right">
+                        <i class="fas fa-angle-up" id="go-top" title="Ir arriba"></i>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+    </section>
+
+    <!-- Scritp Librerias -->
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Script Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Script JS -->
+    <script src="js/logica.js"></script>
+    <!-- Script TS -->
+    <script src="ts/programation.js"></script>
+</body>
+
+</html>

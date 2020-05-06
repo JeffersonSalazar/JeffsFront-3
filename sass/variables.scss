@@ -1,0 +1,21 @@
+// Variables 
+$color-text1: white;
+$bg-color1: #6C63FF;
+$font-text1: 'Baloo Paaji 2', cursive;
+$font-text2: 'Noto Sans KR', sans-serif;
+
+// Mixin 
+@mixin styles-Icons {
+    display: inline-block;
+    color: $color-text1;
+    background-color: $bg-color1;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.9rem;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 1rem;
+    box-shadow: 0rem .3rem .5rem rgba(0, 0, 0, .3);
+    transition: all .3s linear;
+}
